@@ -9,3 +9,6 @@ en:
       header: 'Your shortened URL is ready:'
       original_url_message: Orginal URL
       redirect_url_message: Redirect URL
+  redirects:
+    show:
+      fail: Please enter a valid shortened URL
