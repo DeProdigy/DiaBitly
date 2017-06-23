@@ -1,0 +1,11 @@
+en:
+  short_urls:
+    new:
+      header: Welcome to DiaBitly
+      submit: Create Short URL
+    create:
+      fail: Could not create a shortened URL. Please try again with a valid URL
+    show:
+      header: 'Your shortened URL is ready:'
+      original_url_message: Orginal URL
+      redirect_url_message: Redirect URL
