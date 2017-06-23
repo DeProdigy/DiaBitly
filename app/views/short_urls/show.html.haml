@@ -1,6 +1,7 @@
-%h1= t('.header')
+.short_url_container
+  %h1= t('.header')
 
-%h5= t('.original_url_message')
-%h3= @url.original_url
-%h5= t('.redirect_url_message')
-%h3= @url.redirect_url
+  %h5= t('.original_url_message')
+  %h3.highlighted= @url.original_url
+  %h5= t('.redirect_url_message')
+  %h3.highlighted= link_to @url.redirect_url, "#{@url.redirect_url}", target: '_blank'

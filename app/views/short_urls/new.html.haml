@@ -1,6 +1,7 @@
-%h1= t('.header')
+.short_url_container
+  %h1= t('.header')
 
-= form_for :short_url, url: short_urls_path do |f|
-  = f.label :original_url
-  = f.text_field :original_url
-  = f.submit t('.submit')
+  = form_for :short_url, url: short_urls_path do |f|
+    = f.label :original_url
+    = f.text_field :original_url
+    = f.submit t('.submit')
